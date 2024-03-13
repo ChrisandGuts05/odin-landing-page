@@ -1,0 +1,136 @@
+body {
+    font-family: roboto, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+#hero,
+footer {
+    background-color: #1f2937;
+    padding: 0 10%;
+}
+header
+    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+a,
+#hero-p {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+#hero-content {
+    padding:10% 0 10% 0;
+    display:flex;
+    align-items: center;
+}
+#hero-head {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+#hero-img {
+    width: 768px;
+    margin-left: 20px;
+}
+#hero-btn {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: #f9faf8;
+}
+#info {
+    padding: 5% 10%;
+}
+#info-head {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+#info-examples {
+    display: flex;
+    justify-content: space-around;
+}
+.info-imgs {
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+#captions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 10px;
+    color: #555555;
+    font-size: 18px;
+}
+#quote {
+    background-color: #e5e7eb;
+    padding: 5% 25%;
+}
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+cite {
+    font-style: normal;
+}
+#author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10%;
+}
+#call {
+    background-color: #3882f6;
+    padding: 2% 10%;
+    margin: 5% 10%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9faf8
+}
+#call-btn {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: #f9faf8
+}
+#call-text h2 {
+    font-size: 36px;
+    margin: 0;
+}
+#call-text p {
+    font-size: 18px;
+    margin: 0;
+}
+footer {
+    padding: 2% 10%;
+    margin-top: 5%;
+    color:#f9faf8;
+    text-align: center;
+}
+footer h2 {
+    font-weight: 300;
+    font-size: 18px;
+}
